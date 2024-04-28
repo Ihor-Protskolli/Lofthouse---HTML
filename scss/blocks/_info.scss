@@ -1,0 +1,31 @@
+.info {
+  position: relative;
+
+  font-size: 18px;
+
+  &--map,
+  &--tel {
+    padding-left: 35px; // 21px (icon width) + 14px (design gap)
+
+    &::before {
+      content: "";
+
+      position: absolute;
+      left: 0px;
+      top: 0px;
+      width: 21px;
+      height: 21px;
+
+      background-image: none;
+      background-repeat: no-repeat;
+    }
+  }
+
+  &--tel::before {
+    background-image: url("/img/header/phone.svg");
+  }
+
+  &--map::before {
+    background-image: url("/img/header/map.svg");
+  }
+}
