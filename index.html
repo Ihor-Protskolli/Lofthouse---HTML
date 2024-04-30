@@ -12,7 +12,7 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto:300&display=swap" rel="stylesheet" />
   </head>
   <body>
-    <header class="header">
+    <header class="header none">
       <div class="header__top">
         <div class="container">
           <div class="header__top-row">
@@ -49,7 +49,7 @@
     </header>
 
     <main>
-      <section id="benefits" class="benefits">
+      <section id="benefits" class="benefits none">
         <h2 class="visually-hidden">Преимущества ЖК</h2>
 
         <div class="container container--sm">
@@ -89,7 +89,7 @@
         </div>
       </section>
 
-      <section class="apartments" id="apartments">
+      <section class="apartments none" id="apartments">
         <div class="container">
           <h2 class="apartments__title title-2">Наши квартиры</h2>
 
@@ -113,6 +113,26 @@
               <img class="apartments__item-img" src="./img/apartments/04.jpg" alt="" />
               <p class="apartments__item-text">Loft квартира “Престиж”</p>
             </a>
+          </div>
+        </div>
+      </section>
+
+      <section class="cta">
+        <div class="container">
+          <div class="cta__title"><h2 class="title-2">Хотите посмотреть?</h2></div>
+
+          <div class="cta__wrapper">
+            <div class="cta__text">
+              <p>ЖК LoftHouse – это проект бизнес-класса, расположенный в центре города, на Наб. реки Фонтанки 10-15. Комплекс предлагает своим жильцам квартиры площадью от 40 до 170 кв. м. В здании будет три секции, в которых разместится всего 56 квартир.</p>
+            </div>
+
+            <form class="cta__form form" action="">
+              <input type="text" class="form__input" placeholder="Ваше имя" />
+              <input type="tel" class="form__input" placeholder="Ваш телефон" />
+
+              <p class="form__privacy">*Мы никому не передаем ваши данные. <br />И не сохраняем ваш номер в базу.</p>
+              <button class="form__btn" action="submit">Посмотреть район</button>
+            </form>
           </div>
         </div>
       </section>
