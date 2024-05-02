@@ -64,3 +64,13 @@ a {
   font-weight: 700;
   line-height: normal;
 }
+
+.accent-text {
+  color: $accent;
+  transition: all 0.2s ease;
+  font-weight: 700;
+
+  &:hover {
+    filter: brightness(0.5);
+  }
+}
